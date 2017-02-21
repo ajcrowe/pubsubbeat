@@ -1,0 +1,16 @@
+2017-02-20T13:51:53Z INFO Metrics logging every 30s
+2017-02-20T13:51:53Z INFO Loading template enabled. Reading template file: /home/alex/Development/go/src/github.com/ajcrowe/pubsubbeat/pubsubbeat.template.json
+2017-02-20T13:51:53Z INFO Loading template enabled for Elasticsearch 2.x. Reading template file: /home/alex/Development/go/src/github.com/ajcrowe/pubsubbeat/pubsubbeat.template-es2x.json
+2017-02-20T13:51:53Z INFO Elasticsearch url: http://localhost:9200
+2017-02-20T13:51:53Z INFO Activated elasticsearch as output plugin.
+2017-02-20T13:51:53Z INFO Publisher name: eros
+2017-02-20T13:51:53Z INFO Flush Interval set to: 1s
+2017-02-20T13:51:53Z INFO Max Bulk Size set to: 50
+2017-02-20T13:51:53Z INFO pubsubbeat start running.
+2017-02-20T13:51:53Z INFO pubsubbeat is running! Hit CTRL-C to stop it.
+2017-02-20T13:51:54Z INFO Event sent
+2017-02-20T13:51:55Z INFO Event sent
+2017-02-20T13:51:55Z ERR Connecting error publishing events (retrying): Get http://localhost:9200: dial tcp 127.0.0.1:9200: getsockopt: connection refused
+2017-02-20T13:51:55Z INFO Total non-zero values:  libbeat.publisher.messages_in_worker_queues=2 libbeat.publisher.published_events=2
+2017-02-20T13:51:55Z INFO Uptime: 2.494415281s
+2017-02-20T13:51:55Z INFO pubsubbeat stopped.
